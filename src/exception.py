@@ -1,5 +1,5 @@
 import sys
-
+from src.logger import logging
 
 def error_message_(error,error_detail:sys):
     file_name=exc_tb.tb_frame.f_code.co_filename #standard code taken from document but couldn't find need to check again
