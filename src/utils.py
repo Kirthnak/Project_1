@@ -7,6 +7,8 @@ import dill
 import pickle
 
 from src.exception import custome_exp
+from sklearn.metrics import r2_score
+from sklearn.model_selection import GridSearchCV
 
 def save_object(file_path, obj):
     try:

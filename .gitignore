@@ -7,7 +7,7 @@ __pycache__/
 *.so
 
 # Distribution / packaging
-.artifact
+
 .Python
 build/
 develop-eggs/
@@ -15,7 +15,7 @@ dist/
 downloads/
 eggs/
 .eggs/
-lib/
+lib/git 
 lib64/
 parts/
 sdist/
